@@ -7,7 +7,7 @@ Dual export **ESM** + **CJS** + **.d.ts**. **No server/CLI included.**
 
 ## Installation
 ```bash
-npm i github:4relial/pinterest-playwright-search
+npm i github:4relial/Pinterest-Scraper
 
 # Playwright as a peer dependency
 npm i -D playwright 
