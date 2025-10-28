@@ -19,18 +19,18 @@ npx playwright install chromium
 import { search } from "@4relial/pinterest-search";
 
 const urls = await search("kamisato ayaka", {
-  // opsional: path browser Chromium/Chrome/Brave
-  maxLoops: 10,
+  // path: browser to Chromium/Chrome/Brave (Optional)
+  maxLoops: 5,
   minAddPerLoop: 10
 });
-console.log(urls.slice(0, 5));
+console.log(urls);
 ```
 
 ## Usage (CommonJS)
 ```js
 const { search } = require("@4relial/pinterest-search");
 
-search("kamisato ayaka", { maxLoops: 10, minAddPerLoop: 10 })
+search("kamisato ayaka", { maxLoops: 5, minAddPerLoop: 10 })
   .then(console.log)
   .catch(console.error);
 ```
