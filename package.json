@@ -1,0 +1,28 @@
+{
+  "name": "@4relial/pinterest-search",
+  "version": "1.0.0",
+  "description": "Import-only Playwright helper to collect Pinterest image URLs from search results (unofficial).",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4relial/pinterest-playwright-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/4relial/pinterest-playwright-search/issues"
+  },
+  "homepage": "https://github.com/4relial/pinterest-playwright-search#readme",
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs",
+      "require": "./src/index.cjs",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "playwright": "^1.47.0"
+  }
+}
